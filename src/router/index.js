@@ -19,7 +19,7 @@ export default new Router({
       name: 'AdminIndex',
       component: AdminIndex,
       children: [
-        // {
+        // { // 这里可以写直接访问父路由时渲染哪个component
         //   path: '',
         //   component: Statictis
         // },
