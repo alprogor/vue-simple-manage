@@ -17,17 +17,23 @@ export default new Router({
     {
       path: '/admin',
       name: 'AdminIndex',
-      component: AdminIndex
-    },
-    {
-      path: '/product',
-      name: 'ProductManage',
-      component: ProductManage
-    },
-    {
-      path: '/client',
-      name: 'ClientManage',
-      component: ClientManage
+      component: AdminIndex,
+      children: [
+        // {
+        //   path: '',
+        //   component: Statictis
+        // },
+        {
+          path: 'product',
+          name: 'ProductManage',
+          component: ProductManage
+        },
+        {
+          path: 'client',
+          name: 'ClientManage',
+          component: ClientManage
+        }
+      ]
     }
   ]
 })
