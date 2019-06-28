@@ -9,7 +9,6 @@
 <script>
 // 导入api
 import { getproducts } from '@/api/product'
-import axios from 'axios'
 export default {
   name: 'ProductManage',
   data () {
@@ -32,10 +31,6 @@ export default {
         // 当请求错误时，提示错误信息
         this.$message(error)
       })
-      // axios.get('/api/products')
-      //   .then(function (res) {
-      //     console.log(res)
-      //   })
     }
   }
 }
