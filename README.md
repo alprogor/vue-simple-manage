@@ -2,20 +2,5 @@
 
 > A Simple Manager View Base Vue
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[如何使用Vue.js来搭建一个后台管理系统](https://www.cnblogs.com/progor/p/11102099.html)的参考代码
